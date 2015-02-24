@@ -7,17 +7,16 @@
 //
 
 #import "ViewController.h"
+#import <NNButton.h>
 
-@interface ViewController ()
+@implementation ViewController{
+	__weak IBOutlet NNButton* _btn;
+}
 
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+//	_btn.layer.cornerRadius = 10;
 }
 
 - (void)didReceiveMemoryWarning

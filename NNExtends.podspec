@@ -10,19 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "NNExtends"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NNExtends."
+  s.summary          = "hoge"
   s.description      = <<-DESC
-                       An optional longer description of NNExtends
-
-                       * Markdown format.
+                      fuga
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NNExtends"
+  s.homepage         = "https://github.com/noughts/NNExtends"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "koichi yamamoto" => "koichi@dividual.jp" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NNExtends.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/noughts/NNExtends.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/noughts'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

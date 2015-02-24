@@ -9,11 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "NNExtends"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "hoge"
   s.description      = <<-DESC
                       fuga
-                       * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/noughts/NNExtends"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
